@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/booma/Library/Developer/Xcode/DerivedData/SamAdd-dxctlsbctrlqnscnujhnilwomldb/Build/Products/Debug-iphonesimulator/SamAdd.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/booma/Downloads/SamAdd/build/SamAdd.build/Debug-iphonesimulator/SamAdd.build/unextended-module.modulemap",
+    }]
+  }]
+}

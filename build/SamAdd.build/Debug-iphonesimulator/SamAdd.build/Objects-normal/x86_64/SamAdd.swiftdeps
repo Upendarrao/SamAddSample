@@ -1,0 +1,133 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SamAddProtocol"
+- "SamAdd"
+provides-nominal:
+- "6SamAdd0aB8ProtocolP"
+- "6SamAddAAC"
+provides-member:
+- ["6SamAdd0aB8ProtocolP", ""]
+- ["6SamAddAAC", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "helloAdd"
+- "shared"
+depends-top-level:
+- !private "+"
+- "Int"
+- "NSObject"
+- "SamAdd"
+- "SamAddProtocol"
+- !private "StringLiteralType"
+- !private "debugPrint"
+depends-member:
+- ["s7CVarArgP", "SamAdd"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "shared"]
+- ["s28CustomDebugStringConvertibleP", "SamAdd"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "SamAdd"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["SQ", "SamAdd"]
+- ["SQ", ""]
+- !private ["SQ", "debugPrint"]
+- !private ["SQ", "delegate"]
+- ["SQ", "init"]
+- !private ["SQ", "shared"]
+- ["SH", "SamAdd"]
+- ["SH", ""]
+- !private ["SH", "debugPrint"]
+- !private ["SH", "delegate"]
+- ["SH", "init"]
+- !private ["SH", "shared"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "SamAdd"]
+- ["So8NSObjectC", "SamAddProtocol"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "helloAdd"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectP", "SamAdd"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "debugPrint"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "shared"]
+- ["6SamAddAAC", "Int"]
+- ["6SamAddAAC", "SamAdd"]
+- ["6SamAddAAC", "SamAddProtocol"]
+- !private ["6SamAddAAC", "debugPrint"]
+- ["6SamAddAAC", "deinit"]
+- ["6SamAddAAC", "delegate"]
+- ["6SamAddAAC", "helloAdd"]
+- ["6SamAddAAC", "init"]
+- ["6SamAddAAC", "shared"]
+- ["6SamAdd0aB8ProtocolP", "didCallHello"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SamAdd"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SamAdd"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "6SamAddAAC"
+- "6SamAdd0aB8ProtocolP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/booma/Downloads/SamAdd/SamAdd/SamAdd.h"
+- "/Users/booma/Downloads/SamAdd/build/SamAdd.build/Debug-iphonesimulator/SamAdd.build/unextended-module.modulemap"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fc212bf0e3fc06756960d49125c2360a"

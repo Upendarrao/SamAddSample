@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "65e4ec4df664ed3c10d1f2ff90730191"
+build_time: [1602765720, 626092000]
+inputs:
+  "/Users/booma/Downloads/SamAdd/SamAdd/SamAdd.swift": [1602765714, 825710791]

@@ -1,0 +1,10 @@
+framework module SamAdd {
+  umbrella header "SamAdd.h"
+
+  export *
+  module * { export * }
+}
+
+module SamAdd.__Swift {
+    exclude header "SamAdd-Swift.h"
+}

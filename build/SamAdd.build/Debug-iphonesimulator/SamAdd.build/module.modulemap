@@ -1,0 +1,11 @@
+framework module SamAdd {
+  umbrella header "SamAdd.h"
+
+  export *
+  module * { export * }
+}
+
+module SamAdd.Swift {
+    header "SamAdd-Swift.h"
+    requires objc
+}
